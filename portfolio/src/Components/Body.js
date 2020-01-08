@@ -8,9 +8,9 @@ class Body extends Component {
     this.state = {
       projects: [
         {
-          project_name: "Word Sprint",
-          project_img: "None",
-          project_url: "http://wordsprint.surge.sh/",
+          name: "Word Sprint",
+          img: "None",
+          url: "http://wordsprint.surge.sh/",
           languages: ["HTML", "CSS", "JavaScript", "Words API"]
         }
       ]
@@ -22,6 +22,17 @@ class Body extends Component {
       <div className="content-wrapper" >
         <div className="intro">
           <h3><span role="img" alt="waving emoji">👋🏼</span> I'm Abir: Lead of Operations at ExigoSource & an <span id="se">Avid Software Engineer</span></h3>
+        </div>
+        <div className="projects">
+          {this.state.projects.map((project, key) => {
+            <Project
+              name={project.name}
+              img={project.img}
+              url={project.url}
+              languages={projects.languages}
+              key={key}
+            />
+          })}
         </div>
       </div>
     )
