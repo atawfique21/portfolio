@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Project from './Project'
 
+
 class Body extends Component {
 
   constructor(props) {
@@ -10,8 +11,8 @@ class Body extends Component {
       projects: [
         {
           name: "Word Sprint",
-          img: "Insert Image Here!",
-          url: "http://wordsprint.surge.sh/",
+          img: "../Resources/word.png",
+          url: "./",
           languages: ["HTML", "CSS", "JavaScript", "Words API"]
         }
       ]

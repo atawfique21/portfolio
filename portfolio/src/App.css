@@ -48,7 +48,7 @@ html, body {
   text-align: center;
   padding: 2.5px;
   background: rgb(63,133,230);
-  background: linear-gradient(94deg, rgba(63,133,230,1) 0%, rgba(28,179,216,1) 100%);
+  background: linear-gradient(94deg, rgba(63, 133, 230, 0.75) 0%, rgba(28, 178, 216, 0.75) 100%);
   border-radius: 2px;
 }
 
@@ -92,6 +92,7 @@ html, body {
   min-width: 300px;
   min-height: 300px;
   padding: 10px;
+  border-radius: 25px;
 }
 
 .project > a {
@@ -99,23 +100,35 @@ html, body {
   text-decoration: none;
   letter-spacing: 3px;
   border: 1px solid white;
-  min-width: 160px;
+  min-width: 160px; 
   font-weight: 400;
   text-align: center;
   padding: 2.5px;
-  background: rgb(63,133,230);
-  background: linear-gradient(94deg, rgba(63,133,230,1) 0%, rgba(28,179,216,1) 100%);
+  background: rgb(131,86,170);
+  background: linear-gradient(94deg, rgba(131,86,170,1) 0%, rgba(222,145,146,1) 100%);
   border-radius: 2px;
 }
 
 .language-wrapper {
   display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  border-top: 1px solid white;
+  margin-top: 20px;
+}
+
+.language-wrapper > h3 {
+  letter-spacing: 5px;
+  margin-top: 5px;
+}
+
+.languages {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 300px;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: -10px;
 }
 
 .language {

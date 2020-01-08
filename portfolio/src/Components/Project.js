@@ -7,9 +7,12 @@ const Project = (props) => {
       <h4>{props.img}</h4>
       <a href={props.url}>See {props.name} Live!</a>
       <div className="language-wrapper">
-        {props.languages.map(lang =>
-          <p className="language">{lang}</p>
-        )}
+        <h3>CREATED WITH</h3>
+        <div className="languages">
+          {props.languages.map(lang =>
+            <p className="language">{lang}</p>
+          )}
+        </div>
       </div>
     </div>
   )
