@@ -4,7 +4,7 @@ import Header from './Components/Header'
 import Body from './Components/Body'
 import Footer from './Components/Footer'
 
-class App extends React.Component {
+class App extends Component {
   constructor(props) {
     super(props);
 
