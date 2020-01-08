@@ -75,11 +75,19 @@ html, body {
   font-size: 28px;
 }
 
-#se {
+#typewriter {
   background: rgb(63,133,230);
   background: linear-gradient(94deg, rgba(63, 133, 230, 0.60) 0%, rgba(28, 178, 216, 0.60) 100%);
   padding-left: 4px;
   padding-right: 4px;
+}
+
+#input {
+
+}
+
+.zeroop {
+  opacity: 0;
 }
 
 .projects-wrapper {
