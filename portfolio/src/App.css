@@ -10,6 +10,7 @@ html, body {
   color: #FAFAFA;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .header {
@@ -79,4 +80,49 @@ html, body {
   background: linear-gradient(94deg, rgba(63, 133, 230, 0.60) 0%, rgba(28, 178, 216, 0.60) 100%);
   padding-left: 4px;
   padding-right: 4px;
+}
+
+.projects-wrapper {
+  margin-bottom: 30px;
+}
+
+.project {
+  background-color: #161616;
+  text-align: center;
+  min-width: 300px;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.project > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  letter-spacing: 3px;
+  border: 1px solid white;
+  min-width: 160px;
+  font-weight: 400;
+  text-align: center;
+  padding: 2.5px;
+  background: rgb(63,133,230);
+  background: linear-gradient(94deg, rgba(63,133,230,1) 0%, rgba(28,179,216,1) 100%);
+  border-radius: 2px;
+}
+
+.language-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 300px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.language {
+  background: rgb(63,133,230);
+  background: linear-gradient(94deg, rgba(63, 133, 230, 0.60) 0%, rgba(28, 178, 216, 0.60) 100%);
+  width: fit-content;
+  padding: 3px;
+  border-radius: 4px;
+  margin: 0px 5px 10px 5px;
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Project from './Project'
 
 class Body extends Component {
 
@@ -9,7 +10,7 @@ class Body extends Component {
       projects: [
         {
           name: "Word Sprint",
-          img: "None",
+          img: "Insert Image Here!",
           url: "http://wordsprint.surge.sh/",
           languages: ["HTML", "CSS", "JavaScript", "Words API"]
         }
@@ -23,16 +24,16 @@ class Body extends Component {
         <div className="intro">
           <h3><span role="img" alt="waving emoji">👋🏼</span> I'm Abir: Lead of Operations at ExigoSource & an <span id="se">Avid Software Engineer</span></h3>
         </div>
-        <div className="projects">
-          {this.state.projects.map((project, key) => {
+        <div className="projects-wrapper">
+          {this.state.projects.map((project, key) =>
             <Project
               name={project.name}
               img={project.img}
               url={project.url}
-              languages={projects.languages}
+              languages={project.languages}
               key={key}
             />
-          })}
+          )}
         </div>
       </div>
     )
