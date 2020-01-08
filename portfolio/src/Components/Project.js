@@ -4,8 +4,10 @@ const Project = (props) => {
   return (
     <div className="project" key={props.key}>
       <h1>{props.name}</h1>
-      <img src={props.url}></img>
-      <a href={props.url}>See {props.name} Live!</a>
+      <div className="img-button-cont">
+        <img src={props.img} className="project-pictures"></img>
+        <a href={props.url} target="_blank">See {props.name} Live!</a>
+      </div>
       <div className="language-wrapper">
         <h3>CREATED WITH</h3>
         <div className="languages">

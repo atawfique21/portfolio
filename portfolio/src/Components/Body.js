@@ -10,10 +10,22 @@ class Body extends Component {
     this.state = {
       projects: [
         {
-          name: "Word Sprint",
-          img: "../Resources/word.png",
+          name: "My Portfolio",
+          img: "./",
           url: "./",
-          languages: ["HTML", "CSS", "JavaScript", "Words API"]
+          languages: ["React", "HTML", "CSS", "JavaScript", "JSX"]
+        },
+        {
+          name: "Word Sprint",
+          img: "https://i.imgur.com/shhaqnl.png",
+          url: "http://wordsprint.surge.sh/",
+          languages: ["HTML", "CSS", "JavaScript", "Words API", "Event-Listeners"]
+        },
+        {
+          name: "Better Boards",
+          img: "https://i.imgur.com/emQiaaa.png",
+          url: "http://betterboards.surge.sh/",
+          languages: ["React", "BeautifulDND", "HTML", "CSS", "JavaScript", "JSX"]
         }
       ],
       typed: false,
@@ -25,7 +37,7 @@ class Body extends Component {
     let i = 0;
     let txt = ['an Avid Software Engineer.', "I'm business-minded.", 'a learner.', 'an Entrepreneur.', "I'm detail-oriented.", "I'm creative."];
     let count = this.state.count;
-    let speed = 100;
+    let speed = 115;
     let currentcomponent = this;
 
     if (this.state.typed === false) {
@@ -67,7 +79,7 @@ class Body extends Component {
       setTimeout(() => {
         let txt = document.getElementById("input").innerHTML
         let i = txt.length;
-        let speed = 30;
+        let speed = 40;
         function deleter() {
           if (i >= 0) {
             txt = txt.slice(0, txt.length - 1)
