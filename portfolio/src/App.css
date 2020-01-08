@@ -1,4 +1,53 @@
 /* FIXME: Background Color: #1d1d22
 Div color/Header/footer: Gradient from #282a30 to #101119
-Button color: Gradient from #3f85e6 to #1cbed8 */
+Button color: Gradient from #3f85e6 to #1cbed8
+Primary-font-color: #c3c5c6 
+Secondary-font-color: #242529 
+*/
 
+html, body {
+  background-color: #161616;
+  color: #FAFAFA;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header > h1 {
+  letter-spacing: 5px;
+  margin-bottom: -16px;
+}
+
+.header > h4 {
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+.header > .nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.header > .nav > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  letter-spacing: 3px;
+  border: 1px solid white;
+  min-width: 160px;
+  text-align: center;
+  padding: 2.5px;
+}
+
+.content-wrapper {
+  background: black;
+  min-height: 460px;
+}
