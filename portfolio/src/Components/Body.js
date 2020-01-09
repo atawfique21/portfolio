@@ -36,7 +36,7 @@ class Body extends Component {
 
   typeWriter = () => {
     let i = 0;
-    let txt = ['an Avid Software Engineer.', "I'm business-minded.", 'a learner.', 'an Entrepreneur.', "I'm detail-oriented.", "I'm creative."];
+    let txt = ['an Avid Software Engineer.', 'a learner.', 'an Entrepreneur.', "detail-oriented.", "business-minded.", "quality-driven.", "a creative."];
     let count = this.state.count;
     let speed = 115;
     let currentcomponent = this;
@@ -113,7 +113,15 @@ class Body extends Component {
     return (
       <div className="content-wrapper" >
         <div className="intro">
-          <h3><span role="img" alt="waving emoji">👋🏼</span> I'm Abir: Lead of Operations at ExigoSource & <span id="typewriter"><span id="input"></span><span id="cursor">|</span></span></h3>
+          <h3><span role="img" alt="waving emoji">👋🏼</span> I'm Abir: Lead of Operations at ExigoSource & I'm <span id="typewriter"><span id="input"></span><span id="cursor">|</span></span></h3>
+          <div className="contact">
+            <h4>[GitHub logo]</h4>
+            <h4>[LinkedIn logo]</h4>
+            <h4>[Email logo]</h4>
+          </div>
+        </div>
+        <div className="section-header">
+          <h1 className='my-work-h1'>MY WORK</h1>
         </div>
         <div className="projects-wrapper">
           {this.state.projects.map((project, key) =>
