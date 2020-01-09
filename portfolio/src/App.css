@@ -77,6 +77,14 @@ html, body {
   margin-bottom: 0px;
 }
 
+.emojis {
+  margin-top: -15px;
+}
+
+.intro > .emojis > h4 {
+  font-size: 20px;
+}
+
 #typewriter {
   background: rgb(63,133,230);
   background: linear-gradient(94deg, rgba(63, 133, 230, 0.60) 0%, rgba(28, 178, 216, 0.60) 100%);
@@ -89,8 +97,29 @@ html, body {
 }
 
 .contact {
+  margin-top: 0px;
   display: flex;
   justify-content: center;
+}
+
+.social-img {
+  max-width: 30px;
+  margin-right: 5px;
+}
+
+#github {
+  margin-top: 3px;
+}
+
+#linked {
+  filter: invert(1);
+  max-width: 37px;
+}
+
+#email {
+  filter: invert(1);
+  max-width: 30px;
+  margin-top: 4px;
 }
 
 .projects-wrapper {

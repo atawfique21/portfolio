@@ -114,11 +114,7 @@ class Body extends Component {
       <div className="content-wrapper" >
         <div className="intro">
           <h3><span role="img" alt="waving emoji">👋🏼</span> I'm Abir: Lead of Operations at ExigoSource & I'm <span id="typewriter"><span id="input"></span><span id="cursor">|</span></span></h3>
-          <div className="contact">
-            <h4>[GitHub logo]</h4>
-            <h4>[LinkedIn logo]</h4>
-            <h4>[Email logo]</h4>
-          </div>
+          <div className="emojis"><h4>🐆🚵🏽‍♂️🌮🎮🏝</h4></div>
         </div>
         <div className="section-header">
           <h1 className='my-work-h1'>MY WORK</h1>
