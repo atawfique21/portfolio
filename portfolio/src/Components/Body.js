@@ -10,12 +10,6 @@ class Body extends Component {
     this.state = {
       projects: [
         {
-          name: "My Portfolio",
-          img: "./",
-          url: "./",
-          languages: ["React", "HTML", "CSS", "JavaScript", "JSX"]
-        },
-        {
           name: "Word Sprint",
           img: "https://i.imgur.com/shhaqnl.png",
           url: "http://wordsprint.surge.sh/",
@@ -26,6 +20,12 @@ class Body extends Component {
           img: "https://i.imgur.com/emQiaaa.png",
           url: "http://betterboards.surge.sh/",
           languages: ["React", "BeautifulDND", "HTML", "CSS", "JavaScript", "JSX"]
+        },
+        {
+          name: "My Portfolio",
+          img: "./",
+          url: "./",
+          languages: ["React", "HTML", "CSS", "JavaScript", "JSX"]
         }
         // TODO: Potnetially add future projects just for more depth? AKA resturant one since we know what that one is so far.
       ],

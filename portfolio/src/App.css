@@ -97,9 +97,10 @@ html, body {
 }
 
 .contact {
-  margin-top: 0px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .social-img {
