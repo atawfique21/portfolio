@@ -27,6 +27,7 @@ class Body extends Component {
           url: "http://betterboards.surge.sh/",
           languages: ["React", "BeautifulDND", "HTML", "CSS", "JavaScript", "JSX"]
         }
+        // TODO: Potnetially add future projects just for more depth? AKA resturant one since we know what that one is so far.
       ],
       typed: false,
       count: 0

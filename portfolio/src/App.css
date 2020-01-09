@@ -6,7 +6,7 @@ Secondary-font-color: #242529
 */
 
 html, body {
-  background-color: #0f0f0f;
+  background-color: black;
   color: #FAFAFA;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -48,7 +48,7 @@ html, body {
   text-align: center;
   padding: 2.5px;
   background: rgb(63,133,230);
-  background: linear-gradient(94deg, rgba(63, 133, 230, 0.75) 0%, rgba(28, 178, 216, 0.75) 100%);
+  background: linear-gradient(94deg, rgba(63, 133, 230, 0.65) 0%, rgba(28, 178, 216, 0.65) 100%);
   border-radius: 2px;
 }
 
@@ -93,23 +93,27 @@ html, body {
 .projects-wrapper {
   margin-bottom: 30px;
   display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .project {
   background-color: #0f0f0f;
   text-align: center;
   max-width: 400px;
+  min-width: 400px;
   min-height: 300px;
   padding: 10px;
   border-radius: 20px;
-  filter: drop-shadow(0 0 1.0rem rgba(222,145,146,0.45));
+  filter: drop-shadow(0 0 0.85rem rgba(94, 94, 94, 0.95));
   margin: 20px;
 }
 
 .project > h1 {
   margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .img-button-cont {
@@ -119,11 +123,11 @@ html, body {
 }
 
 .project-pictures {
-  max-width: 390px;
+  min-width: 350px;
   max-height: 200px;
   margin-bottom: 20px;
   border-radius: 10px;
-  filter: drop-shadow(0 0 0.35rem rgba(5, 5, 5, 0.651));
+  filter: drop-shadow(0 0 0.95rem rgb(5, 5, 5));
 }
 
 .project > .img-button-cont > a {
@@ -136,7 +140,7 @@ html, body {
   text-align: center;
   padding: 2.5px;
   background: rgb(131,86,170);
-  background: linear-gradient(94deg, rgba(131,86,170,1) 0%, rgba(222,145,146,1) 100%);
+  background: linear-gradient(94deg, rgba(131,86,170,0.70) 0%, rgba(222,145,146,0.70) 100%);
   border-radius: 2px;
 }
 
