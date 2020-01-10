@@ -305,6 +305,7 @@ and (max-device-width : 812px) {
   }
 
   .project {
-    min-width: 110%;
+    min-width: 140%;
+    transform: translateX(-73px);
   }
  }
