@@ -54,6 +54,12 @@ html, body {
   font-size: 17px;
     font-weight: 400;
   text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.header > .nav > button:hover {
+  opacity: 90%;
 }
 
 .content-wrapper {
