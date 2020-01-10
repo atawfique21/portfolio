@@ -96,33 +96,6 @@ html, body {
   opacity: 0;
 }
 
-.contact {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.social-img {
-  max-width: 30px;
-  margin-right: 5px;
-}
-
-#github {
-  margin-top: 3px;
-}
-
-#linked {
-  filter: invert(1);
-  max-width: 37px;
-}
-
-#email {
-  filter: invert(1);
-  max-width: 30px;
-  margin-top: 4px;
-}
-
 .projects-wrapper {
   margin-bottom: 30px;
   display: flex;
@@ -143,6 +116,8 @@ html, body {
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
+  /* background: linear-gradient(94deg, rgba(63, 133, 230, 0.60) 0%, rgba(28, 178, 216, 0.60) 100%);
+  max-width: fit-content; */
 }
 
 .project {
@@ -153,8 +128,11 @@ html, body {
   min-height: 300px;
   padding: 10px;
   border-radius: 20px;
-  filter: drop-shadow(0 0 0.85rem rgba(94, 94, 94, 0.95));
+  filter: drop-shadow(0 0 0.95rem rgba(94, 94, 94, 0.781));
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project > h1 {
@@ -162,6 +140,15 @@ html, body {
   letter-spacing: 2px;
   font-size: 30px;
   font-weight: 500;
+  border-radius: 5px;
+  max-width: 80%;
+  background: linear-gradient(94deg, rgba(63, 133, 230, 0.60) 0%, rgba(28, 178, 216, 0.60) 100%);
+}
+
+.project > p {
+  margin-top: -5px;
+  letter-spacing: 5px;
+  font-size: 13px;
 }
 
 .img-button-cont {
@@ -170,12 +157,34 @@ html, body {
   align-items: center;
 }
 
+
+.browser-mockup {
+  border-top: 2em solid rgb(39, 39, 39);
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  border-radius: 3px 3px 0 0;
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+
+
+
 .project-pictures {
   min-width: 350px;
   max-height: 200px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  filter: drop-shadow(0 0 0.95rem rgb(5, 5, 5));
+  margin-bottom: 20px;  
+  filter: drop-shadow(0 0 0.45rem rgba(77, 77, 77, 0.65));
 }
 
 .project > .img-button-cont > a {
@@ -222,3 +231,32 @@ html, body {
   border-radius: 4px;
   margin: 0px 5px 10px 5px;
 }
+
+.contact {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-img {
+  max-width: 30px;
+  margin-right: 5px;
+}
+
+#github {
+  margin-top: 3px;
+}
+
+#linked {
+  filter: invert(1);
+  max-width: 37px;
+}
+
+#email {
+  filter: invert(1);
+  max-width: 30px;
+  margin-top: 4px;
+}
+
+

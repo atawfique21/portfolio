@@ -13,8 +13,6 @@ class App extends Component {
     }
   }
 
-  // TODO: I need to find a way to make the "Avid Software Engineer change occasionally."
-
   render() {
     return (
       <div className="App" >

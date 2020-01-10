@@ -11,23 +11,28 @@ class Body extends Component {
       projects: [
         {
           name: "Word Sprint",
-          img: "https://i.imgur.com/shhaqnl.png",
+          description: "A Typing Game",
+          img: "https://im6.ezgif.com/tmp/ezgif-6-3554bbf57f9d.gif",
           url: "http://wordsprint.surge.sh/",
           languages: ["HTML", "CSS", "JavaScript", "Words API", "Event-Listeners"]
         },
         {
           name: "Better Boards",
-          img: "https://i.imgur.com/emQiaaa.png",
+          description: "A Trello Clone",
+          img: "https://im6.ezgif.com/tmp/ezgif-6-2c084d87781e.gif",
           url: "http://betterboards.surge.sh/",
           languages: ["React", "BeautifulDND", "HTML", "CSS", "JavaScript", "JSX"]
         },
         {
           name: "My Portfolio",
+          description: "This Project",
           img: "./",
           url: "./",
           languages: ["React", "HTML", "CSS", "JavaScript", "JSX"]
         }
         // TODO: Potnetially add future projects just for more depth? AKA resturant one since we know what that one is so far.
+        // TODO: Make paralax effect 
+        // TODO: Make a droop shaadow class with interval that changes and glows differently, this might be too flashy though.
       ],
       typed: false,
       count: 0
@@ -38,7 +43,7 @@ class Body extends Component {
     let i = 0;
     let txt = ['an Avid Software Engineer.', 'a learner.', 'an Entrepreneur.', "detail-oriented.", "business-minded.", "quality-driven.", "a creative."];
     let count = this.state.count;
-    let speed = 115;
+    let speed = 95;
     let currentcomponent = this;
 
     if (this.state.typed === false) {
@@ -123,6 +128,7 @@ class Body extends Component {
           {this.state.projects.map((project, key) =>
             <Project
               name={project.name}
+              description={project.description}
               img={project.img}
               url={project.url}
               languages={project.languages}
