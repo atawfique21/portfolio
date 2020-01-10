@@ -12,23 +12,23 @@ class Body extends Component {
         {
           name: "Word Sprint",
           description: "A Typing Game",
-          img: "https://im6.ezgif.com/tmp/ezgif-6-3554bbf57f9d.gif",
+          img: "https://media.giphy.com/media/TKAi2uwEoiRwN48IIM/giphy.gif",
           url: "http://wordsprint.surge.sh/",
           languages: ["HTML", "CSS", "JavaScript", "Words API", "Event-Listeners"]
         },
         {
           name: "Better Boards",
           description: "A Trello Clone",
-          img: "https://im6.ezgif.com/tmp/ezgif-6-2c084d87781e.gif",
+          img: "https://media.giphy.com/media/PmdRqMbGNkFz7AEFvA/giphy.gif",
           url: "http://betterboards.surge.sh/",
-          languages: ["React", "BeautifulDND", "HTML", "CSS", "JavaScript", "JSX"]
+          languages: ["React", "BeautifulDND", "HTML", "CSS", "JavaScript"]
         },
         {
           name: "My Portfolio",
-          description: "This Project",
-          img: "./",
+          description: "This Application",
+          img: "https://media.giphy.com/media/f7Z0eJhyg86DVoZdee/giphy.gif",
           url: "./",
-          languages: ["React", "HTML", "CSS", "JavaScript", "JSX"]
+          languages: ["React", "HTML", "CSS", "JavaScript"]
         }
         // TODO: Potnetially add future projects just for more depth? AKA resturant one since we know what that one is so far.
         // TODO: Make paralax effect 
@@ -117,11 +117,11 @@ class Body extends Component {
   render() {
     return (
       <div className="content-wrapper" >
-        <div className="intro">
+        <div className="intro" id="intro">
           <h3><span role="img" alt="waving emoji">👋🏼</span> I'm Abir: Lead of Operations at ExigoSource & I'm <span id="typewriter"><span id="input"></span><span id="cursor">|</span></span></h3>
           <div className="emojis"><h4>🐆🚵🏽‍♂️🌮🎮🏝</h4></div>
         </div>
-        <div className="section-header">
+        <div className="section-header" id="workdiv">
           <h1 className='my-work-h1'>MY WORK</h1>
         </div>
         <div className="projects-wrapper">
