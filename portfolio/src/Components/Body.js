@@ -123,18 +123,18 @@ class Body extends Component {
         </div>
         <div className="section-header" id="workdiv">
           <h1 className='my-work-h1'>MY WORK</h1>
-        </div>
-        <div className="projects-wrapper">
-          {this.state.projects.map((project, key) =>
-            <Project
-              name={project.name}
-              description={project.description}
-              img={project.img}
-              url={project.url}
-              languages={project.languages}
-              key={key}
-            />
-          )}
+          <div className="projects-wrapper">
+            {this.state.projects.map((project, key) =>
+              <Project
+                name={project.name}
+                description={project.description}
+                img={project.img}
+                url={project.url}
+                languages={project.languages}
+                key={key}
+              />
+            )}
+          </div>
         </div>
       </div>
     )

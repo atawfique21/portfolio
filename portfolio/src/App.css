@@ -198,7 +198,6 @@ html, body {
 
 
 .project-pictures {
-  min-width: 350px;
   max-height: 200px;
   margin-bottom: 20px;  
 }
@@ -275,4 +274,37 @@ html, body {
   margin-top: 4px;
 }
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) { 
+  .header > h4 {
+    max-width: 80%;
+    text-align: center;
+  }
 
+  .content-wrapper > .intro {
+    max-width: 85%;
+  }
+
+  .content-wrapper > .intro > h3 {
+    font-size: 24px;
+    min-height: 130px;
+  }
+
+  .ind-project-wrapper {
+    max-width: 60%;
+  }
+
+  .my-work-h1 {
+    font-size: 30px;
+    max-width: 60%;
+  }
+
+  .project-pictures {
+    max-width: 100%;
+  }
+
+  .project {
+    min-width: 110%;
+  }
+ }
