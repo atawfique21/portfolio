@@ -24,6 +24,20 @@ class Body extends Component {
           languages: ["React", "BeautifulDND", "HTML", "CSS", "JavaScript"]
         },
         {
+          name: "Resolve",
+          description: "Social Resolutions Tracking App",
+          img: "https://i.imgur.com/k5bV1Fi.png",
+          url: "http://resolve.surge.sh/",
+          languages: ["React", "Express", "PSQL", "HTML", "CSS", "JavaScript"]
+        },
+        {
+          name: "Blend on The Water",
+          description: "Resturant Website Redesign",
+          img: "https://i.imgur.com/bRP9Abq.png",
+          url: "http://blend.surge.sh/",
+          languages: ['React', "React-Burger-Menu", "HTML", "CSS", "JavaScript"]
+        },
+        {
           name: "My Portfolio",
           description: "This Application",
           img: "https://media.giphy.com/media/f7Z0eJhyg86DVoZdee/giphy.gif",
