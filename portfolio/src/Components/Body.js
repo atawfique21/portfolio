@@ -55,7 +55,7 @@ class Body extends Component {
 
   typeWriter = () => {
     let i = 0;
-    let txt = ['an Avid Software Engineer.', 'a learner.', 'an Entrepreneur.', "detail-oriented.", "business-minded.", "quality-driven.", "a creative."];
+    let txt = ['solutions-oriented.', 'a learner.', 'an Entrepreneur.', "detail-oriented.", "business-minded.", "quality-driven.", "a creative."];
     let count = this.state.count;
     let speed = 95;
     let currentcomponent = this;
@@ -132,7 +132,7 @@ class Body extends Component {
     return (
       <div className="content-wrapper" >
         <div className="intro" id="intro">
-          <h3><span role="img" alt="waving emoji">👋🏼</span> I'm Abir: Lead of Operations at ExigoSource & I'm <span id="typewriter"><span id="input"></span><span id="cursor">|</span></span></h3>
+          <h3><span role="img" alt="waving emoji">👋🏼</span> I'm Abir: a Software Engineer at ExigoSource & I'm <span id="typewriter"><span id="input"></span><span id="cursor">|</span></span></h3>
           <div className="emojis"><h4>🐆🚵🏽‍♂️🌮🎮🏝</h4></div>
         </div>
         <div className="section-header" id="workdiv">
